@@ -1,17 +1,17 @@
 package main
 
 import (
+	"goCsfle/local"
 	"log"
 )
 
 func main() {
-	err := MakeKey()
+	err := local.MakeKey()
 	if err != nil {
 		log.Fatal(err)
 	}
-	err = Insert()
+	err = local.Insert()
 	if err != nil {
 		log.Fatal(err)
 	}
-
 }

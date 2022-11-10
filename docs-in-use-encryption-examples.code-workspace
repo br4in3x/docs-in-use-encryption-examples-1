@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "local-aut-reader",
+			"path": "queryable-encryption/go/local/reader"
+		},
+		{
+			"name": "local-exp-writer",
+			"path": "queryable-encryption/go/exp/reader"
+		}
+	],
+	"settings": {}
+}

@@ -2,4 +2,7 @@ module goCsfle
 
 go 1.15
 
-require go.mongodb.org/mongo-driver v1.10.3
+require (
+	github.com/aws/aws-sdk-go v1.44.135
+	go.mongodb.org/mongo-driver v1.10.3
+)
